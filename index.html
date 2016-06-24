@@ -1,75 +1,288 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Brian Lopez : Developer / Operations Engineer" />
-    <meta name="google-site-verification" content="i2dOh60v8-7TvLAZaYCdf8fBcvAC_R0qYvI8P56k6YM" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brian Lopez</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="images/avatar-s.jpeg" alt="avatar">
+            </div>
+            <div id="text-header">
+              <h1>Hello,<br> my name is <span>Brian</span> and this is my resume/cv</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>About Me</h2>
+            <p>Human. Minimalist. Tinkerer. Deploy-er of things.</p>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">1983</div>
+                <div class="description pull-right">
+                  <h3>I was born in Los Angeles</h3>
+                  <p>April 4th</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">1995</div>
+                <div class="description pull-right">
+                  <h3>Mesa Intermediate School</h3>
+                  <p>Attended intermediate school in Palmdale, CA, USA</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">1997</div>
+                <div class="description pull-right">
+                  <h3>Littlerock High School</h3>
+                  <p>Attended Littlerock High School in Littlerock, CA, USA</p>
+                </div>
+              </li>
+              
+              <li>
+                <div class="year pull-left">2001</div>
+                <div class="description pull-right">
+                  <h3>California State University, Northridge</h3>
+                  <p>Attended CSUN majoring in Computer Engineering.</p>
+                </div>
+              </li>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/thebrianlopez">View on GitHub</a>
+              <li>
+                <div class="year pull-left">2007</div>
+                <div class="description pull-right">
+                  <h3>College of the Canyons, Valencia, CA, USA</h3>
+                  <p>Complete both courses required for Cisco Certified Network Associate certification.</p>
+                </div>
+              </li>
 
-          <h1 id="project_title">Brian Lopez</h1>
-          <h2 id="project_tagline">Developer / Operations Engineer</h2>
+              <li>
+                <div class="year pull-left">2014</div>
+                <div class="description pull-right">
+                  <h3>Microsoft Certification Training, Quickstart.com</h3>
+                  <p>Completed the following courses: Developing Windows Azure and Web Services; Developing ASP.NET MVC4 Web Applications; Windows PowerShell Scripting and Toolmaking; Developing Microsoft SQL Server 2012 Databases; Microsoft System Center Configuration Manager 2012.</p>
+                </div>
+              </li>
 
-        </header>
+              <li>
+                <div class="year pull-left">2015</div>
+                <div class="description pull-right">
+                  <h3>Amazon Web Services Training, LinuxAcademy.com</h3>
+                  <p>Completed Developing Windows Azure and Web Services course certificate, Developing ASP.NET MVC4 Web Applications course certificate, Windows PowerShell Scripting and Toolmaking course certificate, Developing Microsoft SQL Server 2012 Databases course certificate, Microsoft System Center Configuration Manager 2012 course certificate.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="year pull-left">2016</div>
+                <div class="description pull-right">
+                  <h3>Chef Essentials Training Course, OpsCode</h3>
+                  <p>Completed day long Chef Introduction course at SoCal Linux Expo. Created sample cookbooks and used existing cookbook to deploy a web tier application.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <div class="box">
+            <h2>Experiences</h2>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Nestlé</div>
+                <div class="year">2014 - 2016</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Client Management Design &amp; Build Architect</div>
+                <div class="description">Worked on the Nestle Design &amp; Build team in Lausanne, Switzerland based in Glendale, CA
+
+·         Responsible for designing global workstation imaging infrastructure utilizing technologies such as SCCM 2012 R2, MDT 2013 and 1e Nomad.
+
+·         Automated SCCM builds and configuration using the SCCM SDK / .NET Framework and PowerShell
+
+·         Design and architecture of the OS client deployment and migration solution using SCCM, MDT, PXE and USMT.
+
+·         Responsible for creating technical documentation relating to the design, architecture, configuration and operations for all global Nestle IT Operational teams.
+
+·         Collaborated with global project managers and vendor TAM’s on ensuring a smooth rollout with vendor support.
+
+·         Provided training and virtual workshops for all project steak holders throughout Nestle organizations and child operating companies.
+
+·         Liaised with IT operational teams, vendors and customers during high-priority issues and outages.
+
+·         Served as sole developer of customized tooling s in house legacy systems using C#, VB.NET, MS SQL Server, Active Directory and IIS.
+
+·         Sole developer and maintainer for client management tools for service desk and escalation engineers.</div>
+              </div>
+            </div>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Nestlé</div>
+                <div class="year">2011-2014</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Client Management Engineer</div>
+                <div class="description">·         Worked on the global Nestle Clients Management Team in St. Louis, MO based in Glendale,
+
+·         CA
+
+·         Responsible for L3 support escalations, software deployments relating to IT projects, and patching 200,000 client systems and ensuring security compliance and configuration parity.
+
+·         Served as Subject Matter Expert SME for global IT projects and incident/outage escalations relating to Client Management.
+
+·         Ensured all team technical documentation was up to date for our L2 and L1 service desk teammates.
+
+·         Ran Daily and Weekly Operational Review meetings to ensure team working staying on task.
+
+·         Ensured all infrastructure changes are entered into the change management system and communicated to end users and steak holders for new and upcoming deployments.
+
+·         Serve as onsite SPOC for Client Management Team for onsite representation and escalations.</div>
+              </div>
+            </div>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Pomeroy IT Solutions</div>
+                <div class="year">2007-2011</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Desktop Engineer (contractor for Nestlé USA)</div>
+                <div class="description">Assisted global teams in new implementation of SCCM infrastructure including testing, analysis, and troubleshooting. Interfaced with Globe IS/IT for testing updates to standard networked office workstation (S.N.O.W.) infrastructure for Nestle USA. Served as technical SME on business integration projects from new business acquisitions (Gerber, Kraft Pizza, Dryers, etc.) Served as technical SPOC for new application implementations, deployments, testing, and level 3 escalations for technical problems. Served as technical SME for infrastructure improvement projects with global impact on behalf of Nestle USA. Interfaced with business units and technology vendors for new business solutions implementations.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+18182980568</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">spam@brianlopez.us</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+              <div class="title pull-right">Github</div>
+              <div class="description pull-right"><a>https://github.com/thebrianlopez</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-stack-overflow fa-fw"></span></div>
+              <div class="title pull-right">StackOverFlow</div>
+              <div class="description pull-right"><a>http://stackoverflow.com/users/4891953/brian</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-link fa-fw"></span></div>
+              <div class="title pull-right">Meetup</div>
+              <div class="description pull-right"><a>http://www.meetup.com/members/13642859/</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-linkedin-square fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a>https://www.linkedin.com/pub/brian-lopez/109/58/952</a></div>
+            </div>
+          </div>
+          <!-- Dev SKILLS -->
+          <div class="box">
+            <h2>Dev Skills</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="0.99">C#</div>
+              <div class="item-skills" data-percent="0.80">Visual Basic</div>
+              <div class="item-skills" data-percent="0.80">ASP.Net</div>
+              <div class="item-skills" data-percent="0.99">PowerShell</div>
+              <div class="item-skills" data-percent="0.50">Bash</div>
+              <div class="item-skills" data-percent="0.30">Ruby</div>
+              <div class="item-skills" data-percent="0.30">T-SQL</div>
+              <div class="item-skills" data-percent="0.90">HTML</div>
+              <div class="item-skills" data-percent="0.50">Python</div>
+              <div class="item-skills" data-percent="0.50">CSS</div>
+              <div class="item-skills" data-percent="0.30">Javascript</div>
+              <div class="item-skills" data-percent="0.30">PHP</div>
+              <div class="item-skills" data-percent="0.30">Git</div>
+              <div class="item-skills" data-percent="0.60">Continuous Integration</div>
+              <div class="item-skills" data-percent="0.60">Continuous Integration</div>
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Proficient</span></div>
+                <div class="legend-right legend"><span>Expert</span></div>
+                <div class="legend-right legend">Master</div>
+              </div>
+            </div>
+          </div>
+          <!-- Ops SKILLS -->
+          <div class="box">
+            <h2>Ops Skills</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="1.00">Configuration Manager 2012</div>
+              <div class="item-skills" data-percent="0.75">Chef</div>
+              <div class="item-skills" data-percent="0.25">Puppet</div>
+              <div class="item-skills" data-percent="0.25">Ansible</div>
+              <div class="item-skills" data-percent="0.90">PowerShell</div>
+              <div class="item-skills" data-percent="0.90">VB Script</div>
+              <div class="item-skills" data-percent="0.50">Docker</div>
+              <div class="item-skills" data-percent="0.50">Vagrant</div>
+              <div class="item-skills" data-percent="0.50">Jenkins</div>
+              <div class="item-skills" data-percent="0.50">Gitlab</div>
+              <div class="item-skills" data-percent="0.50">Amazon Web Services</div>
+              <div class="item-skills" data-percent="0.60">Microsoft Azure</div>
+              <div class="item-skills" data-percent="0.60">Windows Server</div>
+              <div class="item-skills" data-percent="0.60">MediaWiki</div>
+              <div class="item-skills" data-percent="0.60">Jira</div>
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Proficient</span></div>
+                <div class="legend-right legend"><span>Expert</span></div>
+                <div class="legend-right legend">Master</div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2>Languages</h2>
+            <div id="language-skills">
+              <div class="skill">English <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+              <div class="skill">Spanish <div class="icons pull-right"><div style="width: 30%;" class="icons-red"></div></div></div>
+              <div class="skill">French <div class="icons pull-right"><div style="width: 10%;" class="icons-red"></div></div></div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Hobbies</h2>
+            <div class="hobby">Urban Gardening</div>
+            <div class="hobby">Activism</div>
+            <div class="hobby">Programming</div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
