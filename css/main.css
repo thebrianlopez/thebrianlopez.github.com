@@ -101,6 +101,10 @@ DEFAULT BOX
   font-size: 1.3em;
   line-height: 1.5em;
 }
+
+#resumeheader{
+	display: none;
+}
 /*******************************************
 EDUCATION
 *******************************************/
@@ -352,4 +356,64 @@ MEDIA
   #education .description{
     width: 90%;
   }
+}
+@media print {
+	body{
+		/*font-family: 'Open Sans', Arial, Tahoma;
+  		font-weight: 50;
+  		font-size: 1em;
+  		color: #363636;
+  		background: #ededed;*/
+
+  		
+  		font-family: initial !important;
+  		font-weight: 400;
+    	font-size: 1em;
+	}
+
+	.container{
+		margin-top: 15px;
+	  	margin-bottom: 15px;
+	  	background: #fff;
+	}
+
+    #photo{
+  		font-size: 0.5em;
+  		font-weight: -100;
+  		display: none;
+	}
+	
+	#text-header{
+  		font-size: 0.5em;
+  		font-weight: -100;
+  		display: none;
+	}
+
+	#summary{
+		display: none;
+	}
+
+	#resumeheader{
+		display: inline;
+		text-align: right;
+		letter-spacing: -1px;
+	}
+
+	.item-skills{
+		height: 30px;
+		background: #F0563D;
+		color: #fff;
+		padding: 5px 10px;
+		margin-bottom: 5px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 1.3em;
+		font-weight: 600;
+	}
+
+	.skills-legend{
+		display: none;
+	}
+
 }
